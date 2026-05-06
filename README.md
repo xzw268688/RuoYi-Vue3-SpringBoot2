@@ -1,6 +1,6 @@
- # my-learning-RuoYi-Vue-springboot2
+ # RuoYi-Vue3-SpringBoot2
 
-  我的 RuoYi-Vue 学习仓库，记录学习过程和笔记。
+  我的 RuoYi-Vue 学习仓库，前后端分离，记录学习过程和笔记。
 
   ## 学习教程
 
@@ -10,6 +10,8 @@
   ## 项目简介
 
   RuoYi-Vue 是一个基于 Spring Boot + Vue 的前后端分离权限管理系统，包含用户管理、角色管理、菜单管理、部门管理等功能。
+
+  本仓库后端使用 RuoYi-Vue（Spring Boot 2），前端使用 RuoYi-Vue3（Vue 3）。
 
   ## 技术栈
 
@@ -21,9 +23,31 @@
   - Spring Security
 
   **前端：**
-  - Vue 2
-  - Element UI
+  - Vue 3
+  - Element Plus
+  - Vite
   - Axios
+
+  ## 项目结构
+
+  ├── ruoyi-admin        // 后端启动模块
+  ├── ruoyi-common       // 公共模块
+  ├── ruoyi-framework    // 框架核心
+  ├── ruoyi-system       // 系统模块
+  ├── ruoyi-quartz       // 定时任务
+  ├── ruoyi-generator    // 代码生成
+  └── ruoyi-ui           // 前端（Vue 3）
+
+  ## 环境准备
+
+  **后端：**
+  - JDK 1.8+
+  - MySQL 5.7+
+  - Redis
+  - Maven
+
+  **前端：**
+  - Node.js 16+
 
   ## 学习进度
 
@@ -34,8 +58,10 @@
   - [ ] 菜单管理
   - [ ] 更多内容持续更新...
 
+  ## 博客
+
+  <!-- 完成后添加博客链接 -->
+
   ## 声明
 
   本仓库仅用于个人学习记录，如有侵权请联系删除。
-
-  这是基础版，你可以根据实际情况修改学习进度和内容。需要调整什么告诉我。
