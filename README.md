@@ -30,13 +30,13 @@
 
   ## 项目结构
 
-  ├── ruoyi-admin        // 后端启动模块
-  ├── ruoyi-common       // 公共模块
-  ├── ruoyi-framework    // 框架核心
-  ├── ruoyi-system       // 系统模块
-  ├── ruoyi-quartz       // 定时任务
-  ├── ruoyi-generator    // 代码生成
-  └── ruoyi-ui           // 前端（Vue 3）
+  ruoyi-admin        后端启动模块
+  ruoyi-common       公共模块
+  ruoyi-framework    框架核心
+  ruoyi-system       系统模块
+  ruoyi-quartz       定时任务
+  ruoyi-generator    代码生成
+  ruoyi-ui           前端（Vue 3）
 
   ## 环境准备
 
